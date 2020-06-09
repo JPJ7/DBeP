@@ -7,11 +7,14 @@
 <form action="" method="get">
     <div>
         <label for "cui">CUI:</label>
-        <INPUT type="number" maxlength="8" id='cui' required /><BR>
+        <INPUT type="number" min="8" max="8" id='cui' required /><BR>
     </div>
     <div>
         <label for "clave">Clave:</label>
-        <INPUT type="text" maxlength="50" id='clave' required /><BR>
+        <INPUT type="password" maxlength="20" id='clave' required /><BR>
+    </div>
+    <div>
+        <button type="submit" onclick="return enviar();" id="enviar">Enviar</button>
     </div>
 </form>
 </body>

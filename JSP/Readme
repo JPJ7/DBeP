@@ -1,0 +1,7 @@
+Objetivo: Entender conceptos/componentes básicos de programación web con java 
+PRIMEROS PASOS DESARROLLANDO JAVA WEB CON JSP Y SERVLETS: 
+Pre-requisitos: Eclipse, Tomcat y Java
+a.	Crear un Proyecto Web Java en base a el siguiente Tutorial: https://www.ecodeup.com/primeros-pasos-java-web-jsp-servlets/
+•	Crear Servlets
+•	Crear páginas JSP
+b.	Ejecutar el Proyecto

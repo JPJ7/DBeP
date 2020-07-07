@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        CRUD
+    </title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Nombre*</label><label class="validation-error hide" id="nombrecValidationError">Esto es requerido.</label>
+                        <input type="text" name="nombrec" id="nombrec">
+                    </div>
+                    <div>
+                        <label>Codigo</label>
+                        <input type="text" name="codigo" id="codigo">
+                    </div>
+                    <div>
+                        <label>Salario</label>
+                        <input type="text" name="paga" id="paga">
+                    </div>
+                    <div>
+                        <label>Ciudad</label>
+                        <input type="text" name="ciudad" id="ciudad">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Codigo</th>
+                            <th>Salario</th>
+                            <th>ciudad</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
